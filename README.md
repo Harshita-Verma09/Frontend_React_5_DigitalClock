@@ -1,8 +1,45 @@
-# React Project series.
+# React Digital Clock
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple digital clock built with **React**.  
+This app displays the current time (hours, minutes, and seconds) and updates every second.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- Shows current hours, minutes, and seconds
+- Updates in real-time (every second)
+- Uses React hooks (`useState`, `useEffect`)
+- Clean and minimal UI
+
+---
+
+## How to Run
+
+1. **Clone or Download the Repository**
+   ```sh
+   git clone https://github.com/your-username/react-digital-clock.git
+   cd react-digital-clock
+   ```
+
+2. **Install Dependencies**
+   ```sh
+   npm install
+   ```
+
+3. **Start the App**
+   ```sh
+   npm start
+   ```
+   The app will open in your browser at `http://localhost:3000`.
+
+---
+
+## Customization
+
+- **Styling:**  
+  Edit `App.css` or the inline styles in `App.js` to change the appearance.
+- **Format:**  
+  You can adjust the time format or add AM/PM as needed.
+
+---
